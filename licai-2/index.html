@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="index.js"></script>
+	<script src="ajax.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="top">
+			<div class="str">
+				<p>项目类型:</p>
+				<ul class="sta">
+					<li class="active">全部</li>
+					<li>优选计划</li>
+					<li>好房赚</li>
+					<li>好车盈</li>
+					<li>产融通</li>
+					<li>房信宝</li>
+				</ul>
+			</div>
+			<div class="data">
+				<p>项目期限:</p>
+				<ul class="stb">
+					<li class="active">全部</li>
+					<li>1个月以内</li>
+					<li>1-3个月</li>
+					<li>3-6个月</li>
+					<li>6个月以上</li>
+				</ul>
+			</div>
+		</div>
+		<div class="tit">
+			<p>排序:<span class="check">年化利率</span><span>项目期限</span></p>
+		</div>
+		<table class="cont">
+			<!-- <tr>
+				<td class="first"><span>优选计划</span>|<span>YX12</span></td>
+				<td>
+					<p><span>7%</span><b>+3%</b></p>
+					<i>约定年利率</i>
+				</td>
+				<td>
+					<p>531,100.00元</p>
+					<i>剩余可投金额</i>
+				</td>
+				<td>
+					<p>30天</p>
+					<i>期限</i>
+				</td>
+				<td>
+					<p>100元</p>
+					<i>起投金额</i>
+				</td>
+				<td>
+					<aside><p class="rate"></p></aside>
+					<i>募集进度<span>89</span>%</i>
+				</td>
+				<td>
+					<div class="sta">立即出借</div>
+				</td>
+			</tr> -->
+			
+		</table>
+	</div>
+
+	<script>
+		new File({
+			sta : ".sta",
+			stb : ".stb",
+			tit : ".tit",
+			cont : ".cont"
+		})
+	</script>
+</body>
+</html>

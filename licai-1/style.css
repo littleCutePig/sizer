@@ -1,0 +1,98 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#warp{
+	width: 1200px;
+	height: 600px;
+	margin: 30px auto;
+}
+ul {
+	margin-top: 30px;
+
+	list-style: none
+}
+li{
+	float: left; 
+	font-size: 15px;
+}
+#item_type li{
+	margin-left: 30px;
+	font-size: 20px;
+	color: #666;
+}
+#item_time li{
+	margin-left: 30px;
+	font-size: 20px;
+	color: #666;
+}
+#comp li{
+	margin-left: 30px;
+	font-size: 20px;
+	color: #666;
+}
+.top{
+	line-height: 20px;
+
+}
+.top li{
+	text-align: center;
+	width: 80px;
+	margin-right: 60px;
+}
+.item_name{
+	display: inline-block;
+	width: 300px;
+	padding-top:20px;
+	font-size: 30px;
+}
+.item_rate_first{
+	font-size: 35px;
+	color: red;
+}
+.item_rate_second{
+	color: red;
+}
+.bottom{
+	margin-left: 210px;
+}
+
+.bottom li{
+	margin: 0 auto;
+	margin-left: 50px;
+	width: 100px;
+}
+.explain {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+
+#content>ul>div{
+	border-top: 1px solid black;
+	margin-bottom: 130px;
+}
+.btn{
+	width: 100px;
+	height: 40px;
+	border-radius: 5%;
+	margin-top: 30px;
+	border: 1px solid red;
+	color: red;
+}
+
+#item_type .item_active{
+	color: #f00;
+}
+#item_time .item_active{
+	color: #f00;
+}
+
+
+
+
+
+
+
+
+
